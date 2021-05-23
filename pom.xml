@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.5</version>
+		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>osvaldo.cruz.org</groupId>
-	<artifactId>autenticacion</artifactId>
+	<groupId>com.osvaldo.cruz</groupId>
+	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>autenticacion</name>
-	<description>login y sesion</description>
+	<name>demo</name>
+	<description>Ejemplo basico</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -38,19 +38,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-				<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-security</artifactId>
-</dependency>
-<dependency>
-  <groupId>org.springframework.security</groupId>
-  <artifactId>spring-security-test</artifactId>
-  <scope>test</scope>
-</dependency>
-		
-		
-		
-		
+
 	</dependencies>
 
 	<build>
