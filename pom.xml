@@ -12,7 +12,7 @@
 	<artifactId>autenticacion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>autenticacion</name>
-	<des/iption>login y sesion</description>
+	<description>login y sesion</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
