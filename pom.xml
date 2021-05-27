@@ -14,7 +14,7 @@
 	<name>autenticacion</name>
 	<description>login y sesion</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -58,12 +58,12 @@
           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.6.2</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
-                    <testSource>8</testSource>
-                    <testTarget>8</testTarget>
+                    <testSource>1.8.0</testSource>
+                    <testTarget>1.8.0</testTarget>
                     <showDeprecation>true</showDeprecation>
                     <compilerArgument>-Xlint:unchecked</compilerArgument>
                 </configuration>
